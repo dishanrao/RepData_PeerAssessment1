@@ -201,6 +201,10 @@ hljs.initHighlightingOnLoad();
 <pre><code>## Error: object of type &#39;closure&#39; is not subsettable
 </code></pre>
 
+<pre><code class="r">        # Define some options for knitr
+        knitr::opts_chunk$set(tidy=FALSE, fig.path=&#39;figures/&#39;)
+</code></pre>
+
 <p>The Data provided has three columns&ndash;the number of steps (steps), the date (date) and a label for the 5 minute interval (interval). Missing values in steps where coded as NA and dates were coded in the ???YYYY-MM-DD??? format.</p>
 
 <p>What is mean total number of steps taken per day?</p>

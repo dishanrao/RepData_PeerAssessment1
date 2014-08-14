@@ -26,6 +26,11 @@ Loading and preprocessing the data
 ## Error: object of type 'closure' is not subsettable
 ```
 
+```r
+        # Define some options for knitr
+        knitr::opts_chunk$set(tidy=FALSE, fig.path='figures/')
+```
+
 The Data provided has three columns--the number of steps (steps), the date (date) and a label for the 5 minute interval (interval). Missing values in steps where coded as NA and dates were coded in the ???YYYY-MM-DD??? format.
 
 What is mean total number of steps taken per day?
